@@ -1,0 +1,92 @@
+﻿# =============================================================================
+# Manufacturing Parts Traceability Dashboard — .gitignore
+# =============================================================================
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# ── Secrets & Credentials ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.json
+secrets.yaml
+secrets.toml
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+pgpass
+.pgpass
+
+# ── PostgreSQL / Database config ──────────────────────────────────────────────
+*.dump
+*.backup
+*.sql.gz
+pg_hba.conf
+postgresql.conf
+pg_ident.conf
+postmaster.pid
+
+# ── Large / Raw dataset files ─────────────────────────────────────────────────
+# Exclude original Bosch competition archives (~14.6 GB uncompressed)
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ── OS / System files ─────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Logs & Temporary files ────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ── Power BI Temporary files ──────────────────────────────────────────────────
+~$*.pbix
+*.pbix.lock

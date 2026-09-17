@@ -1,0 +1,11 @@
+check_name,result_value,status
+row_count_raw_materials,10,PASS
+row_count_production_lots,20,PASS
+row_count_qc_checks,1000,PASS
+row_count_shipments,20,PASS
+duplicate_part_ids,0,PASS
+invalid_qc_responses,0,PASS
+broken_production_to_raw_material_links,0,PASS
+shipment_quantity_violations,0,PASS
+qc_failure_count,4,PASS
+qc_pass_count,996,PASS
