@@ -170,6 +170,16 @@ File: [`powerbi/manufacturing_traceability_dashboard.pbix`](powerbi/manufacturin
 
 Data source: PostgreSQL `manufacturing_traceability` → `traceability_view`
 
+
+## Screenshots
+
+### Page 1 — Plant Quality Overview
+![Plant Quality Overview](screenshots/page1_plant_quality_overview.png)
+
+### Page 2 — Part Traceability
+*Part ID 1250 selected — failed part traced through: PL013 → RM007 → Sandvik Materials Tech → SH013 → Tesla Motors*
+
+![Part Traceability](screenshots/page2_part_traceability.png)
 ### Page 1 — Plant Quality Overview
 
 Executive-level factory-wide dashboard showing:
@@ -376,3 +386,4 @@ manufacturing-parts-traceability/
 This project is released for portfolio and educational purposes.
 
 The Bosch Production Line Performance dataset is subject to its own Kaggle competition licence. This project uses only a 1,000-row sample of the training data (part IDs and pass/fail labels) for demonstration purposes.
+
